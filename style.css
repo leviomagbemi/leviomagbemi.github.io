@@ -1,0 +1,50 @@
+/* all font family */
+*{font-family: poppins;}
+body{background-image:linear-gradient( #00B0FF, #0CFFC6);}
+/* nav background color */
+nav{background-image: linear-gradient( #00B0FF, #0CFFC6);}
+.navbar-toggler span{background-color: #040E3E;}
+/* nav items */
+.navbar a{color: #040E3E;}
+.navbar a:hover{color: #fff;}
+.navbar a:active{color: #fff !important;}
+.navbar a {font-size: 20px;}
+.navbar a .so{font-size: 30px;}
+/* hero section */
+.h-sec{background-image: linear-gradient(#0CFFC6, #00B0FF);}
+.h-sec .row h1{color: #040E3E !important;}
+.h-sec .row p{color: #FF0167 !important;}
+/* section 2 */
+.sec2{background-color: #040E3E !important;}
+.sec2 .form-inline label{font-size: 1.5em; padding-right: 10rem !important;}
+/* section 3 */
+.sec-3{background-image: linear-gradient(#0CFFC6, #00B0FF);}
+.sec-3 h3{font-size: 2em; color: #040E3E;}
+.sec-3 .card{background-color: #040E3E !important; color: #fff !important;}
+.sec-3 .card .btn-primary{ width: 100% !important;}
+.sec-3 .card .btn-primary i{color: #FF0167 !important; font-size: 20px;}
+/* section 4 */
+.sec4 {background-color: #040E3E !important; color: #fff !important; font-size: 1.5em !important;}
+.sec4 li a{color: #fff !important;font-size: 30px; }
+
+@media(max-width:768px){.h-sec .row h1{text-align: center !important;}}
+
+
+@media(max-width:768px){.h-sec .row p{text-align: center !important;}}
+
+@media(max-width:912px){.h-sec .row h1{text-align: center !important;}}
+
+@media(max-width:912px){.h-sec .row p{text-align: center !important;}}
+
+@media(max-width:912px){.sec-3 .card{margin-bottom: 2rem !important;}}
+
+@media(max-width:768px){.sec-3 .card{margin-bottom: 2rem !important;}}
+
+.sec1{background-image: linear-gradient(#0CFFC6, #00B0FF); background-image: 
+cover; padding: 3rem 0 5rem 0;}
+
+.sec1 .conform{background-color: #040E3E !important; color: #fff !important; padding: 3rem; border-radius: 16px;}
+
+.sec1 .context i{font-size: 50px; color: #040E3E; padding: 5rem 0 0 0;}
+
+.sec1 .context{color: #040E3E; text-align: center; font-size: 1.5em;}
